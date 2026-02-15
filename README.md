@@ -4,6 +4,7 @@ A responsive web-based checkout system built using HTML, CSS, Bootstrap 5, and V
 The system allows users to browse products, manage a shopping cart, compute totals with discount, tax, and shipping logic, and generate a printable receipt.
 
 
+
 ## Features
 
 - Landing page
@@ -20,6 +21,7 @@ The system allows users to browse products, manage a shopping cart, compute tota
 - Printable receipt view
 
 
+
 ## Technologies Used
 
 - HTML5
@@ -30,7 +32,8 @@ The system allows users to browse products, manage a shopping cart, compute tota
 
 ## Project Structure
 
-E-commerce/
+```
+project-folder/
 │
 ├── landing.html
 ├── landing.css
@@ -47,7 +50,6 @@ E-commerce/
     ├── sportsbottle.png.jpeg
     └── yogamat.png.jpeg
 ```
-
 
 
 ## Business Logic
@@ -70,4 +72,6 @@ E-commerce/
 ## License
 
 This project is for academic and educational purposes.
+
+
 
