@@ -3,7 +3,6 @@
 A responsive web-based checkout system built using HTML, CSS, Bootstrap 5, and Vanilla JavaScript.  
 The system allows users to browse products, manage a shopping cart, compute totals with discount, tax, and shipping logic, and generate a printable receipt.
 
----
 
 ## Features
 
@@ -20,7 +19,6 @@ The system allows users to browse products, manage a shopping cart, compute tota
 - Receipt generation inside Bootstrap modal
 - Printable receipt view
 
----
 
 ## Technologies Used
 
@@ -29,12 +27,10 @@ The system allows users to browse products, manage a shopping cart, compute tota
 - Bootstrap 5
 - Vanilla JavaScript
 
----
 
 ## Project Structure
 
-```
-project-folder/
+E-commerce/
 │
 ├── landing.html
 ├── landing.css
@@ -52,7 +48,7 @@ project-folder/
     └── yogamat.png.jpeg
 ```
 
----
+
 
 ## Business Logic
 
@@ -61,7 +57,7 @@ project-folder/
 - Shipping: ₱80 if subtotal < ₱500
 - Free Shipping: if subtotal ≥ ₱500
 
----
+
 
 ## How to Run
 
@@ -69,7 +65,7 @@ project-folder/
 2. Make sure the `images` folder contains all product images.
 3. Open `landing.html` to start the application.
 
----
+
 
 ## License
 
