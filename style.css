@@ -1,0 +1,240 @@
+/* ==========================================
+   GLOBAL THEME
+========================================== */
+:root {
+    --bg-main: #0f1115;
+    --bg-card: #1a1d24;
+    --bg-hover: #202531;
+    --accent: #00d4ff;
+    --success: #00c896;
+    --warning: #ffb020;
+    --danger: #ff4d4f;
+    --text-light: #ffffff;
+    --text-muted: #9aa4b2;
+}
+
+body {
+    background: var(--bg-main);
+    color: var(--text-light);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
+.navbar {
+    background: #141821;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.badge {
+    background: var(--accent);
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50px;
+}
+
+/* ==========================================
+   CARDS
+========================================== */
+.card {
+    background: var(--bg-card);
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    color: var(--text-light);
+}
+
+.card-header {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.bg-success { background: var(--success) !important; }
+.bg-info { background: var(--accent) !important; }
+.bg-warning { background: var(--warning) !important; }
+
+/* ==========================================
+   PRODUCT CARD
+========================================== */
+.product-card {
+    transition: 0.3s ease;
+    padding: 1rem;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    background: var(--bg-hover);
+}
+
+.product-image {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252a36;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-name {
+    font-weight: 700;
+}
+
+.product-category {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: black;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+    opacity: 0.85;
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+.table {
+    color: var(--text-light);
+}
+
+.table thead {
+    background: #202531;
+}
+
+.table tbody tr:hover {
+    background: var(--bg-hover);
+}
+
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.qty-btn {
+    background: var(--accent);
+    border: none;
+    padding: 3px 8px;
+    color: black;
+    border-radius: 6px;
+}
+
+.qty-input {
+    width: 55px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #252a36;
+    color: white;
+}
+
+.remove-btn {
+    background: var(--danger);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+/* ==========================================
+   SUMMARY SECTION
+========================================== */
+#summary {
+    border-radius: 0 0 14px 14px;
+}
+
+/* ==========================================
+   FORM
+========================================== */
+.form-control,
+.form-select,
+textarea {
+    background: #252a36;
+    border: 1px solid #333;
+    color: white;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+    background: #2c3240;
+    color: white;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: var(--accent);
+    border: none;
+    font-weight: 600;
+    color: black;
+}
+
+.btn-primary:hover {
+    opacity: 0.85;
+}
+
+.btn-warning {
+    background: var(--warning);
+    border: none;
+    font-weight: 600;
+    color: black;
+}
+
+/* ==========================================
+   MODAL
+========================================== */
+.modal-content {
+    background: #1a1d24;
+    color: white;
+    border-radius: 12px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #333;
+}
+
+.modal-footer {
+    border-top: 1px solid #333;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+/* ==========================================
+   ALERT
+========================================== */
+.alert-info {
+    background: #252a36;
+    border: none;
+    color: var(--text-muted);
+}
+
+
+
